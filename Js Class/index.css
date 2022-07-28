@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background: url(./black-brick-wall-textured-background.jpg);
+}
+
+.results {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.result {
+  /* border: 1px solid orange; */
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  height: 400px;
+  width: 300px;
+}
+
+.result img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background: #192a56;
+  border: 0;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+button:focus {
+  outline: none;
+}
